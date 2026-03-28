@@ -1,0 +1,11 @@
+packages:
+  "framer-motion": "For premium scroll fade-in animations and micro-interactions"
+  "clsx": "Utility for constructing className strings conditionally"
+  "tailwind-merge": "Utility for merging tailwind classes without style conflicts"
+
+images: []
+
+notes:
+  - Landing page is fully static
+  - framer-motion is used for scroll reveals to give it an Apple/Stripe premium feel
+  - Interactive calculator is client-side only

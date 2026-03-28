@@ -1,0 +1,217 @@
+Build a modern, high-converting landing page for a product called "LobbyLogic".
+
+Goal:
+Convert service-based businesses (dentists, doctors, salons, spas, clinics, etc.) into paying customers by clearly showing how LobbyLogic increases revenue from existing foot traffic.
+
+Tone & Style:
+
+* Premium, clean, modern (Apple / Stripe-inspired design)
+* Dark + light contrast sections
+* Smooth scrolling
+* Bold headlines, minimal text
+* Focus on revenue, psychology, and ROI
+* Subtle animations (fade-ins, hover effects)
+
+Tech:
+
+* Use HTML, CSS, and JavaScript (or React if preferred)
+* Mobile responsive
+* Fast loading
+* Include smooth scrolling navigation
+
+Structure the page as follows:
+
+1. HERO SECTION (Above the Fold)
+   Headline:
+   “Turn Your Waiting Room Into a Revenue Engine”
+
+Subheadline:
+“You’re already paying for customers to sit in your space. Start monetising their attention.”
+
+CTA Button:
+“Book a Demo” / “Get Started”
+
+Visual idea:
+Mock screen showing content playing in a waiting room
+
+---
+
+2. THE PROBLEM
+   Headline:
+   “Your Waiting Room Is Wasting Money”
+
+Points:
+
+* You spend money to acquire customers
+* They sit idle while waiting
+* They are uninformed about high-value services
+* No system exists to influence decisions before consultation
+
+---
+
+3. THE OPPORTUNITY
+   Headline:
+   “A Captive Audience You’re Not Using”
+
+Points:
+
+* Customers are already present and attentive
+* High trust environment
+* Perfect moment to influence buying decisions
+* Every day = missed revenue
+
+---
+
+4. THE PSYCHOLOGY
+   Headline:
+   “Why This Works”
+
+Points:
+
+* Waiting increases suggestibility
+* Repetition builds trust (mere exposure effect)
+* Visual content improves understanding and desire
+* Educated customers say yes more often
+
+---
+
+5. THE SOLUTION
+   Headline:
+   “Meet LobbyLogic”
+
+Points:
+
+* Screens + smart content system
+* Control exactly what your customers see
+* Strategic content loops that influence decisions
+* Designed to increase revenue per customer
+
+CTA Button:
+“See How It Works”
+
+---
+
+6. HOW IT WORKS (3-STEP VISUAL SECTION)
+   Step 1:
+   “We Install”
+   Screens placed in your waiting area
+
+Step 2:
+“You Control”
+Upload or choose content from dashboard
+
+Step 3:
+“You Profit”
+Customers arrive informed and ready to buy
+
+---
+
+7. USE CASES (MULTI-INDUSTRY)
+   Headline:
+   “Built for Every Service Business”
+
+Cards for:
+
+* Dentists (whitening, aligners, implants)
+* Medical practices (procedures, screenings)
+* Salons (treatments, packages)
+* Spas (premium services)
+* Clinics (add-ons, upgrades)
+
+---
+
+8. REVENUE IMPACT
+   Headline:
+   “Turn Attention Into Revenue”
+
+Example box:
+“20 customers per day
+5% conversion
+= Thousands in extra monthly revenue”
+
+Points:
+
+* Increase average transaction value
+* Boost high-margin service uptake
+* Monetise existing traffic
+
+---
+
+9. WHY LOBBYLOGIC
+   Headline:
+   “Not Just Screens. A Revenue System.”
+
+Points:
+
+* Psychology-driven content strategy
+* Built for service businesses
+* Simple to use
+* Scalable across locations
+* Future: analytics + ROI tracking
+
+---
+
+10. SOCIAL PROOF (Placeholder if none yet)
+    Headline:
+    “Imagine Every Customer Walking In Already Sold”
+
+(Optional placeholder testimonials)
+
+---
+
+11. PRICING / MODEL
+    Headline:
+    “Simple Monthly Investment. Ongoing Returns.”
+
+Points:
+
+* Subscription includes hardware + software
+* Optional premium content packs
+* No extra marketing spend required
+
+---
+
+12. FINAL CTA
+    Headline:
+    “Stop Letting Customers Sit Idle”
+
+Subheadline:
+“Start converting them before the consultation even begins.”
+
+CTA Button (Large):
+“Book a Demo”
+
+---
+
+13. FOOTER
+
+* Logo
+* Contact info
+* “Built to turn attention into revenue”
+
+---
+
+Design Requirements:
+
+* Use large bold fonts for headlines
+* Plenty of white space
+* Smooth transitions between sections
+* Subtle animations on scroll
+* Buttons should stand out clearly
+* Include icons or simple illustrations where helpful
+
+Conversion Focus:
+
+* Every section should reinforce revenue growth
+* Avoid technical jargon
+* Keep messaging simple and powerful
+* Make the user feel like they are losing money by not using this
+
+Optional Enhancements:
+
+* Add a sticky header with CTA button
+* Add a floating “Book Demo” button
+* Add a simple calculator (optional) where users input daily customers and see potential revenue increase
+
+End Goal:
+A visually impressive, persuasive landing page that feels like a premium product and clearly communicates that LobbyLogic increases revenue from existing customers in waiting areas.
