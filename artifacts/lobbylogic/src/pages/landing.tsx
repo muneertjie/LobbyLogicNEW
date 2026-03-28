@@ -29,9 +29,9 @@ export function Landing() {
         <div className="absolute top-0 left-1/2 -translate-x-1/2 w-full max-w-[1000px] h-[500px] bg-azure/30 blur-[150px] rounded-full pointer-events-none" />
         
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
-          <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-8 items-center">
+          <div className="flex justify-center">
             
-            <FadeIn direction="right" className="max-w-2xl">
+            <FadeIn direction="up" className="max-w-3xl text-center">
               <div className="inline-flex items-center gap-2 px-3 py-1.5 rounded-full bg-white/10 border border-white/20 text-white/90 text-sm font-medium mb-6">
                 <span className="w-2 h-2 rounded-full bg-azure animate-pulse"></span>
                 The #1 Waiting Room Revenue System
@@ -39,10 +39,10 @@ export function Landing() {
               <h1 className="text-5xl sm:text-6xl lg:text-7xl font-display font-extrabold text-white leading-[1.1] tracking-tight mb-6">
                 Turn Your Waiting Room Into a <span className="text-transparent bg-clip-text bg-gradient-to-r from-azure to-lightblue">Revenue Engine</span>
               </h1>
-              <p className="text-xl text-white/80 mb-10 leading-relaxed max-w-lg">
+              <p className="text-xl text-white/80 mb-10 leading-relaxed max-w-lg mx-auto">
                 You're already paying for customers to sit in your space. Start monetising their attention before the consultation even begins.
               </p>
-              <div className="flex flex-col sm:flex-row gap-4">
+              <div className="flex flex-col sm:flex-row gap-4 justify-center">
                 <Button 
                   onClick={handleBookDemo}
                   size="lg" 
@@ -61,15 +61,6 @@ export function Landing() {
               </div>
             </FadeIn>
 
-            <FadeIn direction="left" delay={0.2} className="relative">
-              <div className="relative w-full aspect-square max-w-[520px] mx-auto">
-                <img 
-                  src={`${import.meta.env.BASE_URL}assets/hero-illustration.png`} 
-                  alt="LobbyLogic Screens Hub" 
-                  className="w-full h-full object-contain drop-shadow-2xl"
-                />
-              </div>
-            </FadeIn>
           </div>
         </div>
       </section>
@@ -80,7 +71,7 @@ export function Landing() {
           <FadeIn>
             <div className="text-center max-w-3xl mx-auto mb-16">
               <h2 className="text-3xl md:text-5xl font-bold text-navy mb-6">
-                Your Waiting Room Is Wasting Money
+                Your Waiting Room Is <em>Wasting</em> Money
               </h2>
               <p className="text-lg text-muted-foreground">
                 While you treat patients or clients, your reception area is leaking potential revenue every single day.
@@ -462,10 +453,11 @@ export function Landing() {
               <div className="bg-white rounded-3xl p-8 border border-border shadow-sm flex flex-col h-full">
                 <h3 className="text-2xl font-bold text-navy mb-2">Starter</h3>
                 <p className="text-muted-foreground mb-6">Perfect for single-location clinics.</p>
-                <div className="mb-8">
-                  <span className="text-5xl font-bold text-navy">£299</span>
+                <div className="mb-2">
+                  <span className="text-5xl font-bold text-navy">R999</span>
                   <span className="text-muted-foreground">/mo</span>
                 </div>
+                <p className="text-xs text-muted-foreground mb-6">Excl. set-up fees · 24-month contract</p>
                 <ul className="space-y-4 mb-8 grow">
                   {["Hardware + Software included", "Standard Content Library", "Basic Analytics", "Email Support", "1 Location"].map((feature, i) => (
                     <li key={i} className="flex items-center gap-3 text-navy">
@@ -492,10 +484,11 @@ export function Landing() {
                 </div>
                 <h3 className="text-2xl font-bold text-white mb-2">Growth</h3>
                 <p className="text-white/70 mb-6">For multi-location or high-volume practices.</p>
-                <div className="mb-8">
-                  <span className="text-5xl font-bold text-white">£499</span>
+                <div className="mb-2">
+                  <span className="text-5xl font-bold text-white">R1,499</span>
                   <span className="text-white/70">/mo</span>
                 </div>
+                <p className="text-xs text-white/50 mb-6">Excl. set-up fees · 24-month contract</p>
                 <ul className="space-y-4 mb-8 grow">
                   {["Everything in Starter", "Premium Content Packs", "Advanced Analytics & ROI tracking", "Priority 24/7 Support", "Multi-location management"].map((feature, i) => (
                     <li key={i} className="flex items-center gap-3 text-white">

@@ -2,11 +2,11 @@ import { useState } from "react";
 import { Slider } from "@/components/ui/slider";
 import { Input } from "@/components/ui/input";
 import { FadeIn } from "@/components/ui/fade-in";
-import { PoundSterling, Users, Percent, TrendingUp } from "lucide-react";
+import { Users, Percent, TrendingUp, Banknote } from "lucide-react";
 
 export function Calculator() {
   const [dailyCustomers, setDailyCustomers] = useState(20);
-  const [avgUpsell, setAvgUpsell] = useState<number | "">(200);
+  const [avgUpsell, setAvgUpsell] = useState<number | "">(2000);
   const [conversionRate, setConversionRate] = useState(5);
 
   // Calculate monthly extra revenue assuming 22 working days
@@ -15,9 +15,7 @@ export function Calculator() {
   const yearlyRevenue = monthlyRevenue * 12;
 
   const formatCurrency = (val: number) => {
-    return new Intl.NumberFormat('en-GB', {
-      style: 'currency',
-      currency: 'GBP',
+    return 'R' + new Intl.NumberFormat('en-ZA', {
       maximumFractionDigits: 0,
     }).format(val);
   };
@@ -67,8 +65,8 @@ export function Calculator() {
               <div className="space-y-4">
                 <div className="flex justify-between items-center">
                   <label className="text-white font-medium flex items-center gap-2">
-                    <PoundSterling className="w-5 h-5 text-azure" />
-                    Avg Upsell Value (£)
+                    <Banknote className="w-5 h-5 text-azure" />
+                    Avg Upsell Value (R)
                   </label>
                 </div>
                 <Input
