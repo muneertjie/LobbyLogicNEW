@@ -37,7 +37,7 @@ export function Landing() {
                 The #1 Waiting Room Revenue System
               </div>
               <h1 className="text-5xl sm:text-6xl lg:text-7xl font-display font-extrabold text-white leading-[1.1] tracking-tight mb-6">
-                Turn Your Waiting Room Into a <span className="text-transparent bg-clip-text bg-gradient-to-r from-azure to-lightblue">Revenue Engine</span>
+                Turn Your Waiting Room Into a <span className="text-transparent bg-clip-text bg-gradient-to-r from-azure to-lightblue font-bold" style={{fontWeight: 700}}>Revenue Engine</span>
               </h1>
               <p className="text-xl text-white/80 mb-10 leading-relaxed max-w-lg mx-auto">
                 You're already paying for customers to sit in your space. Start monetising their attention before the consultation even begins.
