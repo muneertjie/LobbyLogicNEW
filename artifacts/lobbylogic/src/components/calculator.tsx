@@ -6,7 +6,7 @@ import { Users, Percent, TrendingUp, Banknote } from "lucide-react";
 
 export function Calculator() {
   const [dailyCustomers, setDailyCustomers] = useState(20);
-  const [avgUpsell, setAvgUpsell] = useState<number | "">(2000);
+  const [avgUpsell, setAvgUpsell] = useState<number | "">(1000);
   const [conversionRate, setConversionRate] = useState(5);
 
   // Calculate monthly extra revenue assuming 22 working days
