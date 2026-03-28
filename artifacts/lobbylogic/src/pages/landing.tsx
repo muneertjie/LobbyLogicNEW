@@ -258,7 +258,7 @@ export function Landing() {
                 { 
                   step: "02", 
                   title: "You Control", 
-                  desc: "Upload your own assets or choose from our library of high-converting, vertical-specific content loops.",
+                  desc: "Upload your own assets or choose from our library of high-converting content. Geared towards your specific aim — premium services, meet the team, our story. It's all in your control.",
                   icon: Sliders
                 },
                 { 
@@ -280,6 +280,19 @@ export function Landing() {
                 </FadeIn>
               ))}
             </div>
+
+            {/* Experiment callout */}
+            <FadeIn delay={0.4}>
+              <div className="mt-16 bg-navy rounded-3xl p-8 md:p-10 flex flex-col md:flex-row items-center gap-6 text-center md:text-left">
+                <div className="w-16 h-16 shrink-0 rounded-2xl bg-azure/20 flex items-center justify-center">
+                  <Sliders className="w-8 h-8 text-azure" />
+                </div>
+                <div>
+                  <h4 className="text-xl font-bold text-white mb-2">Experiment with just the click of a button</h4>
+                  <p className="text-white/70 leading-relaxed">Control which procedures or products you'd like to market and change your content loop on demand — no tech skills required, no waiting around.</p>
+                </div>
+              </div>
+            </FadeIn>
           </div>
         </div>
       </section>
