@@ -30,6 +30,7 @@ export function Footer() {
             <h4 className="text-white font-semibold mb-4">Contact</h4>
             <ul className="space-y-3">
               <li><a href="mailto:hello@lobbylogic.com" className="text-white/60 hover:text-white transition-colors">hello@lobbylogic.com</a></li>
+              <li><a href="tel:0800000000" className="text-white/60 hover:text-white transition-colors">0800 000 000</a></li>
               <li className="flex gap-4 pt-2">
                 <a href="#" className="text-white/60 hover:text-azure transition-colors"><Twitter size={20} /></a>
                 <a href="#" className="text-white/60 hover:text-azure transition-colors"><Linkedin size={20} /></a>
