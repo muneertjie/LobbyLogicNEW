@@ -6,11 +6,6 @@ export function Footer() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="grid grid-cols-1 md:grid-cols-4 gap-12 md:gap-8 mb-16">
           <div className="md:col-span-2">
-            <img 
-              src={`${import.meta.env.BASE_URL}assets/logo-full.png`} 
-              alt="LobbyLogic" 
-              className="h-10 mb-6 brightness-0 invert" 
-            />
             <p className="text-white/70 max-w-sm text-balance">
               Built to turn attention into revenue. The smartest content system for service business waiting rooms.
             </p>
@@ -41,7 +36,7 @@ export function Footer() {
         </div>
         
         <div className="pt-8 border-t border-white/10 flex flex-col md:flex-row justify-between items-center gap-4 text-sm text-white/50">
-          <p>© {new Date().getFullYear()} LobbyLogic. All rights reserved.</p>
+          <p>© {new Date().getFullYear()} LobbyLogic. All rights reserved. · Created by healthcare professionals</p>
           <div className="flex gap-6">
             <a href="#" className="hover:text-white transition-colors">Privacy Policy</a>
             <a href="#" className="hover:text-white transition-colors">Terms of Service</a>
