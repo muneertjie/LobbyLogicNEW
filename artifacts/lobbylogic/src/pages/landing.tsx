@@ -467,7 +467,7 @@ export function Landing() {
                 <h3 className="text-2xl font-bold text-navy mb-2">Starter</h3>
                 <p className="text-muted-foreground mb-6">Perfect for single-location clinics.</p>
                 <div className="mb-2">
-                  <span className="text-5xl font-bold text-navy">R999</span>
+                  <span className="text-5xl font-bold text-navy">R1,499</span>
                   <span className="text-muted-foreground">/mo</span>
                 </div>
                 <p className="text-xs text-muted-foreground mb-6">Excl. set-up fees · 24-month contract</p>
@@ -498,7 +498,7 @@ export function Landing() {
                 <h3 className="text-2xl font-bold text-white mb-2">Growth</h3>
                 <p className="text-white/70 mb-6">For multi-location or high-volume practices.</p>
                 <div className="mb-2">
-                  <span className="text-5xl font-bold text-white">R1,499</span>
+                  <span className="text-5xl font-bold text-white">R2,299</span>
                   <span className="text-white/70">/mo</span>
                 </div>
                 <p className="text-xs text-white/50 mb-6">Excl. set-up fees · 24-month contract</p>
